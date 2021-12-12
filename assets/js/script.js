@@ -9,7 +9,7 @@ function mostrar(e) {
         document.body.style.background = 'rgb(24, 28, 75)';
         document.querySelector('#userName').style.color = '#fff';
         
-        document.getElementById("userPhoto").src = "/logo-2.jpeg"
+        document.getElementById("userPhoto").src = "logo-2.jpeg"
         
         let links = document.querySelectorAll('.link');
         // Pega apenas o primeiro do array
