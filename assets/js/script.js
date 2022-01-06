@@ -6,12 +6,12 @@ function mostrar(e) {
         e.classList.remove("fa-moon-o"); //remove classe icone lua
         e.classList.add("fa-sun-o"); //coloca classedo sol
         e.style.color = "rgb(225, 225, 0)";
-        document.body.style.background = 'rgb(24, 28, 75)';
+        document.body.style.background = '#0f144c';
         document.querySelector('#userName').style.color = '#fff';
         
-        document.getElementById("userPhoto").src = "logo-2.jpeg"
+        document.getElementById("userPhoto").src = "logo-2.jpg"
 
-        document.getElementById('favicon').setAttribute('href','logo-2.jpeg')
+        document.getElementById('favicon').setAttribute('href','icon.png')
         
         let links = document.querySelectorAll('.link');
         
@@ -39,19 +39,19 @@ function mostrar(e) {
         document.body.style.background = 'rgb(254, 254, 254)';
         document.querySelector('#userName').style.color = '';
 
-        document.getElementById("userPhoto").src = "logo.jpeg"
+        document.getElementById("userPhoto").src = "logo.jpg"
 
-        document.getElementById('favicon').setAttribute('href','logo.jpeg')
+        document.getElementById('favicon').setAttribute('href','icon.png')
 
         let links = document.querySelectorAll('.link');
         
-        links[0].style.background = '#181c4b';
+        links[0].style.background = '#0f144c';
         links[0].style.color = 'white';
 
-        links[1].style.background = '#181c4b';
+        links[1].style.background = '#0f144c';
         links[1].style.color = 'white';
 
-        links[2].style.background = '#181c4b';
+        links[2].style.background = '#0f144c';
         links[2].style.color = 'white';
         
 
