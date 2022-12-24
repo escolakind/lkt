@@ -9,7 +9,7 @@ function mostrar(e) {
         document.body.style.background = '#0f144c';
         document.querySelector('#userName').style.color = '#fff';
         
-        document.getElementById("userPhoto").src = "logo-2.jpg"
+        document.getElementById("userPhoto").src = "logo.jpg"
 
         document.getElementById('favicon').setAttribute('href','icon.png')
         
